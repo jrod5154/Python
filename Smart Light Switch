@@ -1,4 +1,4 @@
--- In this script I create a smart light switch, to turn off during the day, and then to turn off during the night. 
+# In this script I create a smart light switch, to turn off during the day, and then to turn off during the night. 
 
 is_day = False
 lights_on = not is_day
