@@ -1,4 +1,4 @@
--- In the the script below I create a calculator to display what a Doober ride would cost.
+# In the the script below I create a calculator to display what a Doober ride would cost.
 
 ride_type = "Black"
 credits = 4
