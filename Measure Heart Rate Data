@@ -1,4 +1,4 @@
--- Here I create a script that shows if your heart rate is to high or to low.
+# Here I create a script that shows if your heart rate is to high or to low.
 
 heart_rate = 77
 
