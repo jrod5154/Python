@@ -1,4 +1,4 @@
--- In the script below I show if the users are highly active, or if the users are not.
+# In the script below I show if the users are highly active, or if the users are not.
 
 frequency = "once a week"
 intensity = "low"
