@@ -1,4 +1,4 @@
---  In the script below I compare the Data from students test  scores, and see if they have averagescores, highscores, and if there are duplicate test scores.
+# In the script below I compare the Data from students test  scores, and see if they have averagescores, highscores, and if there are duplicate test scores.
 
 
 id_1 = "#4"
