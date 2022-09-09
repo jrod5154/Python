@@ -1,4 +1,4 @@
--- In this script I find the outliers In a Data Set, and display them.
+# In this script I find the outliers In a Data Set, and display them.
 
 upper_limit = 91
 lower_limit = 24
