@@ -1,4 +1,4 @@
--- Here I create a script from a Data Base to show if there are enough data points, or if the program has to keep collecting.
+# Here I create a script from a Data Base to show if there are enough data points, or if the program has to keep collecting.
 
 minimum_points = 100
 data_points = 150
