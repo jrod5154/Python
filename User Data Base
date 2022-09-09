@@ -1,4 +1,4 @@
--- Here I Create A Script to show if a DataBase has to add a new user, or if the user already exsist. 
+# Here I Create A Script to show if a DataBase has to add a new user, or if the user already exsist. 
 
 user_added = True
 user = "Becca"
