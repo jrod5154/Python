@@ -21,3 +21,9 @@ if credits > 0:
 
 print("Final price:")
 print(final_price)
+
+Answer:
+Ride price:
+37.9
+Final price:
+33.9
