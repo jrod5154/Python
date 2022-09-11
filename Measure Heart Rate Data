@@ -10,3 +10,9 @@ print(too_low)
 
 print("Heart rate high:")
 print(too_high)
+
+Answer:
+Heart rate low:
+False
+Heart rate high:
+False
