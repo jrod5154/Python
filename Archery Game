@@ -1,0 +1,23 @@
+# In the script below, I create a code that gives a character(Archer) actions to preform in A Archery Game.
+# I come up with the class Archer as the character preforming the actions
+# Then I give the character actions such as ,shoot,reload.
+# Then I create a function that when the archer hits a bullseye he gets plus 3 points. 
+
+class Archer:
+  arrows = 10
+  points = 0
+  empty = False
+  def shoot(self):
+    if self.arrows > 0:
+      print('Aim... and shoot!')
+      self.arrows -= 1
+    else:
+      self.empty = True
+
+  def bullseye(self):
+    self.points += 3
+    
+  def reload(self):
+    if self.empty == True:
+      self.arrows = 10
+      self.empty = False
