@@ -10,3 +10,10 @@ for num in range(amount):
   print(f"{base}/{coupon}/{discount}/{num}")
 
 print(f"{amount} coupons created")
+
+Answer:
+www.homeflix.com/signup/coupon/50/0
+www.homeflix.com/signup/coupon/50/1
+www.homeflix.com/signup/coupon/50/2
+www.homeflix.com/signup/coupon/50/3
+4 coupons created
