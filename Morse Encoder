@@ -1,0 +1,31 @@
+#Down below I create a script that translate a regular interger code, to morse code
+#I define the code by first creating a fuction that replaces the interger with line of morse code
+#Then I assign the variable lock_code with some numbers
+# Then I tell the code to the lock_code translates to morse
+#Then I print the function. 
+
+
+def convert_to_morse(code):
+  code = code.replace("1", ".----")
+  code = code.replace("2", "..---")
+  code = code.replace("3", "...--")
+  code = code.replace("4", "....-")
+  code = code.replace("5", ".....")
+  code = code.replace("6", "-....")
+  code = code.replace("7", "--...")
+  code = code.replace("8", "---..")
+  code = code.replace("9", "----.")
+  code = code.replace("0", "-----")
+  return code
+ 
+
+lock_code = "1 2 2 5 0"
+print(f"Initial code: {lock_code}")
+
+morse = convert_to_morse(lock_code)
+print(f"Morse code: {morse}")
+
+Answer: 
+
+Initial code: 1 2 2 5 0
+Morse code: .---- ..--- ..--- ..... -----
