@@ -12,3 +12,9 @@ while counter <= years:
   account += accrued_interest
   print(f"year {counter}: {account}")
   counter += 1
+
+Answer:
+Initial amount: 100
+year 1: 100.4
+year 2: 100.80160000000001
+year 3: 101.20480640000001
