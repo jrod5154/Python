@@ -17,3 +17,7 @@ else:
   shipping_cost += 5
 
 print(f"Shipping cost: {shipping_cost}")
+
+Answer:
+International base cost applied
+Shipping cost: 20
