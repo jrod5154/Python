@@ -19,3 +19,6 @@ classes = ["Algebra", "History", "Biology", "Swimming"]
 times = ["9a.m.", "11a.m.", "1p.m.", "3p.m."]
 schedule = schedule_classes(classes, times)
 print(f"Monday's schedule: {schedule}")
+
+Answer:
+Monday's schedule: ['Algebra: 9a.m.', 'History: 11a.m.', 'Biology: 1p.m.', 'Swimming: 3p.m.']
