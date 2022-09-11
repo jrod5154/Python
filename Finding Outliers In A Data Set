@@ -11,3 +11,6 @@ if number < lower_limit:
   outlier = True
 if outlier == True:
   print(f"{number} is an outlier")
+
+Answer:
+8 is an outlier
