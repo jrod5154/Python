@@ -26,3 +26,8 @@ computer = Computer()
 user = User("User", 1)
 user.greet()
 computer.respond(user)
+
+Answer:
+
+Hi! What is your name?
+Hello User I am NPC
