@@ -1,0 +1,25 @@
+# In the script below I create a common code that preforms the actions, that a everyday vending machine preforms.
+#I give the class Soda Machine, then I define some of its functions such as, eject_soda, pay, and select_soda
+# Eject soda funtion checks if you paid for the drink or not, if you did it will dispense your drink
+# The pay function  shows the balance you owe 
+# The select_soda fucntion selects the soda you want if paid.
+
+class Soda_Machine:
+  paid = False
+  balance = 0
+
+  def eject_soda(self):
+    if paid == False:
+      print('Please insert money')
+    else:
+      print('Enjoy the soda!')
+
+  def pay(self, amount):
+    self.balance += amount
+    
+  def select_soda(self):
+    if balance >= 1:
+      self.paid = True
+      self.balance -= 1
+    else:
+      self.paid = False
