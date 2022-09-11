@@ -1,0 +1,20 @@
+# Down below I create A calculator by using more enhanced functions.
+# I create the calculator , then I assign it the variables num_1,num_2, and op.
+# Then I within the fuctions I assign it operations to preform with a if, and elif statment.
+# Then finally I give it the command to show the results of the script which is 5*10=50
+
+def calculator(num_1, num_2, op):
+  result = 0
+
+  if op == "+":
+    result = num_1 + num_2
+
+  elif op == "-":
+    result = num_1 - num_2
+
+  elif op == "*":
+    result = num_1 * num_2
+
+  print(f"{num_1} {op} {num_2} = {result}")
+
+calculator(5, 10, "*")
