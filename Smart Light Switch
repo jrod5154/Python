@@ -8,3 +8,9 @@ print(is_day)
 
 print("Lights on?")
 print(lights_on)
+
+Answer:
+Daytime?
+False
+Lights on?
+True
