@@ -10,3 +10,9 @@ print(highly_active)
 high_intensity = intensity == "high"
 print("High intensity sports:")
 print(high_intensity)
+
+Answer:
+Highly active user:
+False
+High intensity sports:
+False
